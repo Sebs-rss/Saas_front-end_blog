@@ -1,13 +1,20 @@
-@import 'abstracts/variables';
-@import 'abstracts/mixins';
-@import 'base/reset';
-@import 'base/typography';
-@import 'components/buttons';
-@import 'components/forms';
-@import 'layout/header';
-@import 'layout/footer';
-@import 'pages/home';
-@import 'pages/register';
-@import 'pages/postDetail';
-@import 'themes/theme';
+//Abstracts
+@import "abstracts/variables", "abstracts/mixins";
+
+//Base
+@import "base/reset" ,"base/typography";
+
+//Componentes
+@import "components/buttons", "components/forms", "components/inputs";
+
+//Layout
+@import "layout/header", "layout/footer";
+
+//Pages
+@import "pages/home", "pages/register", "pages/postDetail";
+
+//Themes
+@import "themes/theme","themes/body", "themes/colors" , "themes/fonts";
+
+//Vendors
 @import 'vendors/bootstrap';

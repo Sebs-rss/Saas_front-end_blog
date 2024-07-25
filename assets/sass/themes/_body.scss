@@ -1,0 +1,5 @@
+@use "../themes/fonts";
+
+body {
+    font-family: fonts.$poppins-font;
+}
