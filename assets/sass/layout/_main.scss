@@ -1,0 +1,51 @@
+@use "../themes/fonts";
+
+
+.main {
+    height: 100%;
+}
+
+.cont-flex{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+
+    &__img{
+        width: 66px;
+        height: 66px;
+        border-radius: 50%;
+    }
+
+    &__title{
+        font-family: "Poppins", sans-serif;
+        font-size: 1.5rem;
+        margin-left: 20px;
+        font-weight: 500;
+        font-weight: bold;
+    }
+
+    &__date{
+        padding-left: 50px;
+    }
+
+}
+
+.detail-container {
+    width: 100%;
+    background-color: #d4d4d4;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 24px;
+
+    &__img {
+        width: 60%;
+        border-radius: 16px;
+        margin-top: 20px;
+        margin-bottom:20px
+    }
+
+    &__text {
+        text-align: left;
+    }
+}

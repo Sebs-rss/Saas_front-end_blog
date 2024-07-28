@@ -1,0 +1,17 @@
+@use "../themes/fonts";
+@use "../themes/colors";
+
+.subscripcion{
+background-color: colors.$primary-green ;
+padding: 70px ;
+border-radius: 20px;
+
+}
+.subscripcion_title{
+    color: white;
+    font-size: 2em;
+}
+.form-subcontainer{
+    display: flex;
+    gap: 70px;
+}

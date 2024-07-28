@@ -15,9 +15,16 @@
     border-radius: 10px;
     border: 2px solid colors.$custom-grey;
     font-family: fonts.$poppins-font;
+    
+    &__link {
+      cursor: pointer;
+      text-decoration: none;
+      color: colors.$black;
+      font-size: 14px;
+    }
   }
 
-  .button--icon {
+  .button--img {
     width: 30px;
     height: 30px;
     object-fit: contain;

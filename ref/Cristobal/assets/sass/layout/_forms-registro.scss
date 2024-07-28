@@ -1,0 +1,18 @@
+@use "../themes/colors";
+
+$form-width: 500px;
+
+.registro__title{
+    font-size: 1rem;
+    font-weight: 200;
+    text-align: center;
+}
+
+.form__registro{
+        @include align-column;
+        width: $form-width;
+        border: 1px solid colors.$custom-grey;
+        padding: 20px;
+        margin: auto;
+        border-radius: 20px;
+}

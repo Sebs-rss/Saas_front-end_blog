@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Blog Frontend</title>
+    <link href="./assets/css/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="./assets/images/logos/adl.png"
+        alt="logo desafio latam"
+        class="header__image"
+      />
+      <h1 class="header__title">Blog Frontend</h1>
+    </header>
+    <hr />
+    <section class="registro">
+      <h3 class="registro__title">Registrate ¡Es gratis!</h3>
+      <form class="form__registro">
+        <div class="form__container_inputs">
+          <input placeholder="Nombre" type="text" class="input" />
+          <input placeholder="Apellido" type="text" class="input" />
+          <input placeholder="Email" type="email" class="input" />
+          <input placeholder="Contraseña" type="text"  class="input">
+          <input placeholder="Confirma contraseña" type="text" class="input">
+        </div>
+        <div class="form__container-buttons">
+          <a href="index.html" type="submit" class="button button--primary">
+            Crea tu cuenta
+          </a>
+          <button type="button" class="button button--secondary">
+            <img
+              src="./assets/images/logos/google-icon.webp"
+              alt="google logo"
+              class="button--icon"
+            />
+            Inicia sesión con Google
+          </button>
+        </div>
+        <span class="form__footer-text"
+          >¿Ya tienes cuenta?
+          <a href="" class="form__link form__link--register"
+            >Inicia Sesión</a
+          ></span
+        >
+      </form>
+    </section>
+  </body>
+</html>

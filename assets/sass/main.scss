@@ -5,13 +5,13 @@
 @import "base/reset" ,"base/typography";
 
 //Componentes
-@import "components/buttons", "components/forms", "components/inputs";
+@import "components/buttons", "components/forms", "components/inputs" , "components/cards";
 
 //Layout
-@import "layout/header", "layout/footer";
+@import "layout/header", "layout/footer", "layout/main";
 
 //Pages
-@import "pages/home", "pages/register", "pages/postDetail";
+@import "pages/login", "pages/register", "pages/detail";
 
 //Themes
 @import "themes/theme","themes/body", "themes/colors" , "themes/fonts";
