@@ -64,12 +64,12 @@
     &--subscribe {
         background-color: colors.$primary-green;
         text-align: left;
-        flex-direction: row;
+
     }
 
     &__subscribe-form {
         display: flex;
-        flex-direction: row;
+        justify-content: center;
         width: 100%;
         gap: 30px;
     }
