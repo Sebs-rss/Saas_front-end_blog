@@ -1,4 +1,5 @@
 @use "../themes/fonts";
+@use "../themes/colors";
 
 
 .main {
@@ -32,6 +33,9 @@
 
 .detail-container {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #d4d4d4;
     padding: 20px;
     margin-top: 20px;
@@ -46,6 +50,30 @@
     }
 
     &__text {
+        text-align: left; 
+    }
+
+    &__subscribe-title {
+        width: 100%;
+        font-weight: bold;
+        font-size: 1.5em;
+        color: white;
         text-align: left;
     }
+
+    &--subscribe {
+        background-color: colors.$primary-green;
+        text-align: left;
+        flex-direction: row;
+    }
+
+    &__subscribe-form {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        gap: 30px;
+    }
+
+    
+
 }

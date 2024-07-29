@@ -3,7 +3,7 @@
 @use "../abstracts/mixins";
 
 
-$form-width: 400px;
+$form-width: 350px;
 
 .registro {
   @include mixins.align-column;
@@ -34,14 +34,15 @@ $form-width: 400px;
   &__subcontainer {
     @include mixins.align-column;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     width: $form-width;
     margin-top: 10px;
   }
 
   &__container-checkbox {
     @include mixins.align-column;
-    flex-direction: row;
+    min-width: 0;
+    justify-content:left;
   }
 
   &__checkbox {
@@ -77,5 +78,6 @@ $form-width: 400px;
 
   &__link--register {
     font-weight: bold;
+    display: inline-block;
   }
 }
